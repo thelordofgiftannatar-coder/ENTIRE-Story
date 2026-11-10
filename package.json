@@ -2,7 +2,7 @@
   "name": "prime-one-android",
   "version": "1.0.0",
   "private": true,
-  "description": "Prime One music player packaged for Android with Capacitor",
+  "description": "Prime One Android Music Player",
   "scripts": {
     "android:add": "cap add android",
     "android:sync": "cap sync android",
@@ -13,6 +13,7 @@
     "@capacitor/core": "^7.4.3"
   },
   "devDependencies": {
-    "@capacitor/cli": "^7.4.3"
+    "@capacitor/cli": "^7.4.3",
+    "typescript": "^5.8.3"
   }
 }
